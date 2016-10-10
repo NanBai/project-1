@@ -130,7 +130,7 @@ public:
   // in the catalog.
   const Product& findCode(const std::string& searchCode) const {
     // TODO: implement this function properly
-    for (int i=0;i<=numberProducts;i++){
+    for (int i=0;i<numberProducts;i++){
       if (product[i].getCode() == searchCode)
       {return product[i];}
     }
